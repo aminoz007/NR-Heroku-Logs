@@ -1,6 +1,6 @@
 [![GitHub issues](https://img.shields.io/github/issues-raw/aminoz007/siteminder)](https://github.com/aminoz007/NR-Heroku-Logs/issues)
-[![License](https://img.shields.io/github/license/aminoz007/NR-Heroku-Logs)]()
-[![Badges](http://img.shields.io/:NR-Logs-ff6799.svg)](https://github.com/badges/badgerbadgerbadger)
+[![License](https://img.shields.io/github/license/aminoz007/NR-Heroku-Logs)](https://github.com/aminoz007/NR-Heroku-Logs/blob/master/LICENSE)
+[![Badges](http://img.shields.io/:NR-Logs-ff6799.svg)](https://docs.newrelic.com/docs/logs/new-relic-logs/get-started/introduction-new-relic-logs)
 
 # Heroku forwarder for New Relic
 
@@ -42,7 +42,7 @@ $ git push heroku master
 Once the logging apllication is up and running. You can configure Heroku HTTPS log drains to publish logs to this application.
 
 ```
-$ heroku drains:add https://YOUR-LOGGING-APP-NAME/datadog.YOUR-SOURCE-APP-NAME -a YOUR-SOURCE-APP-NAME
+$ heroku drains:add https://YOUR-LOGGING-APP-NAME/newrelic.YOUR-SOURCE-APP-NAME -a YOUR-SOURCE-APP-NAME
 ```
 **PS:** You may need to add ".herokuapp.com" to the logging app name depending on the URL of your logging app.
 -   Example: 
