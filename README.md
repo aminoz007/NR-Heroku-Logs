@@ -20,6 +20,8 @@ Heroku doesn't allow users to install separate processes within a single dyno. Y
 
 Follow the steps below to create Fluentd and NR plugin as a Heroku application.
 
+Please make sure to use your **New Relic Insights Insert key**, which you can generate following these [steps](https://docs.newrelic.com/docs/apis/get-started/intro-apis/types-new-relic-api-keys#insights-insert-key.).
+
 ```
 # Get the code
 $ git clone git://github.com/aminoz007/NR-Heroku-Logs.git
