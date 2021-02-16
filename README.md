@@ -60,5 +60,5 @@ This application supports sending incoming events to STDOUT using a `debug`
 tag prefix.
 ```
 # debug using curl
-$ curl "https://YOUR-LOGGING-APP-NAME/debug.YOUR-SOURCE-APP-NAME" -d "60 <13>1 time host app web.1 - myMessage"
+$ curl "https://YOUR-LOGGING-APP-NAME/debug.YOUR-SOURCE-APP-NAME" -d "60 <13>1 2021-02-15T06:25:52.589365+00:00 host app web.1 - myMessage"
 ```
