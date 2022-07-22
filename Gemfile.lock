@@ -25,7 +25,7 @@ GEM
     sigdump (0.2.4)
     strptime (0.2.3)
     thread_safe (0.3.6)
-    tzinfo (1.2.7)
+    tzinfo (1.2.10)
       thread_safe (~> 0.1)
     tzinfo-data (1.2019.3)
       tzinfo (>= 1.0.0)
